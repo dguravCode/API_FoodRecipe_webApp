@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+button{
+  font-weight: bold !important;
+}
+input{
+  width: 20rem;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 4px;
+  border-radius: 10px;
+}
+input:focus{
+  outline: none;
+}
+
+.food-dom-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
